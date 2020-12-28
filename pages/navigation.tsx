@@ -5,7 +5,6 @@ import {
   CenteredNav,
   OverallCenterNav,
   SimpleNavDropdown,
-  DropdownHeavyNav,
 } from "components/navsections";
 
 function NavbarComponents() {
@@ -27,10 +26,6 @@ function NavbarComponents() {
 
         <div className="mb-5">
           <SimpleNavDropdown />
-        </div>
-
-        <div className="mb-5">
-          <DropdownHeavyNav />
         </div>
       </div>
     </ComponentLayout>
