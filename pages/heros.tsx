@@ -4,6 +4,7 @@ import {
   SimpleHero,
   SimpleHeroDark,
   CenteredHero,
+  HeroSignUp,
 } from "components/herosections";
 
 function HeroComponents() {
@@ -29,7 +30,11 @@ function HeroComponents() {
           </div>
         </div>
 
-        <div className="mb-5"></div>
+        <div className="mb-5">
+          <div className="border">
+            <HeroSignUp />
+          </div>
+        </div>
       </div>
     </ComponentLayout>
   );
