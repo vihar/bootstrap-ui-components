@@ -2,7 +2,12 @@
 import { ComponentLayout } from "layouts";
 
 // components
-import { SimpleContact } from "components/contactsections";
+import {
+  ContactWithImage,
+  ReachOutForm,
+  SimpleContact,
+  ContactSplitDetailForm,
+} from "components/contactsections";
 
 function ContactFormComponents() {
   return (
@@ -13,6 +18,24 @@ function ContactFormComponents() {
         <div className="mb-5">
           <div className="border">
             <SimpleContact />
+          </div>
+        </div>
+
+        <div className="mb-5">
+          <div className="border">
+            <ReachOutForm />
+          </div>
+        </div>
+
+        <div className="mb-5">
+          <div className="border">
+            <ContactWithImage />
+          </div>
+        </div>
+
+        <div className="mb-5">
+          <div className="border">
+            <ContactSplitDetailForm />
           </div>
         </div>
       </div>
