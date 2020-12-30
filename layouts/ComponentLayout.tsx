@@ -38,7 +38,7 @@ function ComponentLayout(props: any) {
                 </Link>
               </li>
               <li className="list-group-item border-0 bg-light lead">
-                <Link href="/coming-soon">
+                <Link href="/cards">
                   <a className="text-dark text-decoration-none">
                     Blog Sections / Cards
                   </a>
