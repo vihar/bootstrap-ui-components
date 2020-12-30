@@ -24,14 +24,14 @@ function ComponentLayout(props: any) {
                 </Link>
               </li>
               <li className="list-group-item border-0 bg-light lead">
-                <Link href="/heros">
+                <Link href="/hero-units">
                   <a className="text-dark text-decoration-none">
                     Hero Sections
                   </a>
                 </Link>
               </li>
               <li className="list-group-item border-0 bg-light lead">
-                <Link href="/coming-soon">
+                <Link href="/contact-forms">
                   <a className="text-dark text-decoration-none">
                     Contact Sections
                   </a>

@@ -82,7 +82,7 @@ function HeroSignUp() {
                   <h5 className="text-center mb-3">Create Your Free Account</h5>
                   <div className="row text-center">
                     <div className="col">
-                      <div className="btn btn-light border pr-5 pl-5">
+                      <div className="btn btn-light w-100 border pr-5 pl-5">
                         <img
                           className="img-fluid "
                           src="google.svg"
@@ -91,7 +91,7 @@ function HeroSignUp() {
                       </div>
                     </div>
                     <div className="col">
-                      <button className="btn btn-light border pr-5 pl-5">
+                      <button className="btn btn-light w-100 border pr-5 pl-5">
                         <img
                           className="img-fluid"
                           src="facebook.svg"
@@ -100,7 +100,7 @@ function HeroSignUp() {
                       </button>
                     </div>
                     <div className="col">
-                      <button className="btn btn-light border pr-5 pl-5">
+                      <button className="btn btn-light w-100 border pr-5 pl-5">
                         <img
                           className="img-fluid "
                           src="linkedin.svg"
@@ -134,7 +134,7 @@ function HeroSignUp() {
                   </button>
                 </div>
 
-                <div className="card-footer text-muted mt-2 pb-4">
+                <div className="card-footer text-muted mt-2">
                   <small>
                     We'll never share your email with anyone else. By continuing
                     you accept the Terms of Use and Privacy Policy.
