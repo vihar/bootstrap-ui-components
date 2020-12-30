@@ -1,6 +1,7 @@
 function HeroSignUp() {
   return (
     <>
+      {/* Navigation */}
       <nav className="navbar navbar-expand-lg navbar-light bg-white py-3">
         <div className="container-fluid">
           <a className="navbar-brand pe-3" href="#">
@@ -57,6 +58,7 @@ function HeroSignUp() {
         </div>
       </nav>
 
+      {/* Hero Unit  */}
       <div className="mt-n5" style={{ height: "700px" }}>
         <div className="container h-100">
           <div className="row h-100 justify-content-center">

@@ -46,9 +46,7 @@ function ComponentLayout(props: any) {
               </li>
               <li className="list-group-item border-0 bg-light lead">
                 <Link href="/coming-soon">
-                  <a className="text-dark text-decoration-none">
-                    Call to Action
-                  </a>
+                  <a className="text-dark text-decoration-none">CTA Sections</a>
                 </Link>
               </li>
             </ul>
