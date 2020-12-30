@@ -1,11 +1,11 @@
-function SimpleHero() {
+function SimpleHeroDark() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-white py-3">
+      <nav className="navbar navbar-expand-lg navbar-light bg-dark py-3">
         <div className="container-fluid">
           <a className="navbar-brand pe-3" href="#">
             <img className="img-fluid" src="/logo.svg" width="28" />
-            <span className="ms-3 fw-bold">Navbar</span>
+            <span className="ms-3 fw-bold text-white">Navbar</span>
           </a>
           <button
             className="navbar-toggler"
@@ -21,22 +21,26 @@ function SimpleHero() {
           <div className="collapse navbar-collapse" id="simpleNav">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link fw-bold" aria-current="page" href="#">
+                <a
+                  className="nav-link text-white fw-bold"
+                  aria-current="page"
+                  href="#"
+                >
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link fw-bold" href="#">
+                <a className="nav-link text-white fw-bold" href="#">
                   Link
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link fw-bold" href="#">
+                <a className="nav-link text-white fw-bold" href="#">
                   Docs
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link fw-bold" href="#">
+                <a className="nav-link text-white fw-bold" href="#">
                   Pricing
                 </a>
               </li>
@@ -54,21 +58,21 @@ function SimpleHero() {
           </div>
         </div>
       </nav>
-      <div style={{ height: "80vh" }}>
+      <div className="bg-dark" style={{ height: "80vh" }}>
         <div className="container h-100">
           <div className="row h-100 mt-n4 justify-content-center">
             <div className="col-md-7 align-self-center">
               <h5 className="mb-3">
-                <small className="text-muted text-uppercase">
+                <small className="text-muted text-white text-uppercase">
                   Design Inspiration
                 </small>
               </h5>
 
-              <h1 className="display-4 fw-bold mb-3">
+              <h1 className="display-4 fw-bold text-white mb-3">
                 Data to enrich your
                 <span className="text-primary"> online business</span>
               </h1>
-              <p className="mb-4 lead text-muted">
+              <p className="mb-4 lead text-white">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
                 lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
                 fugiat aliqua.
@@ -91,4 +95,4 @@ function SimpleHero() {
   );
 }
 
-export default SimpleHero;
+export default SimpleHeroDark;

@@ -24,7 +24,7 @@ function ComponentLayout(props: any) {
                 </Link>
               </li>
               <li className="list-group-item border-0 bg-light lead">
-                <Link href="/coming-soon">
+                <Link href="/heros">
                   <a className="text-dark text-decoration-none">
                     Hero Sections
                   </a>

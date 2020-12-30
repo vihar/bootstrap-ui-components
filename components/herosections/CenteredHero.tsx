@@ -1,4 +1,4 @@
-function SimpleHero() {
+function CenteredHero() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-white py-3">
@@ -57,7 +57,7 @@ function SimpleHero() {
       <div style={{ height: "80vh" }}>
         <div className="container h-100">
           <div className="row h-100 mt-n4 justify-content-center">
-            <div className="col-md-7 align-self-center">
+            <div className="col-md-12 text-center align-self-center">
               <h5 className="mb-3">
                 <small className="text-muted text-uppercase">
                   Design Inspiration
@@ -78,12 +78,6 @@ function SimpleHero() {
                 Live Demo
               </div>
             </div>
-            <div className="col-md-5 align-self-center">
-              <img
-                className="mx-auto img-fluid"
-                src="/undraw_absorbed_in_xahs.svg"
-              />
-            </div>
           </div>
         </div>
       </div>
@@ -91,4 +85,4 @@ function SimpleHero() {
   );
 }
 
-export default SimpleHero;
+export default CenteredHero;
