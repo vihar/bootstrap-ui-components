@@ -5,7 +5,7 @@ function ReachOutForm() {
         <div className="row justify-content-center">
           <div className="col-md-8">
             <p className="text-primary text-uppercase">Contact Us</p>
-            <h1 className="font-weight-bold text-dark">How can we help you?</h1>
+            <h1 className="fw-bolder text-dark">How can we help you?</h1>
             <p className="lead text-dark">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna
               lectus, mattis non accumsan in, tempor dictum neque.

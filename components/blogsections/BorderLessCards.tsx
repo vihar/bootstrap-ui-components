@@ -4,7 +4,7 @@ function BorderLessCards() {
       <div className="container my-5 py-5">
         <div className="row justify-content-center mb-4">
           <div className="col-md-7 align-self-center">
-            <h1 className="font-weight-bold text-center">Our Blog</h1>
+            <h1 className="fw-bold text-center">Our Blog</h1>
             <p className="lead text-dark text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -43,7 +43,7 @@ function BorderLessCards() {
                     />
                   </div>
                   <div className="p-2">
-                    <p className="text-dark font-weight-bold m-0">Ayn Rand</p>
+                    <p className="text-dark fw-bold m-0">Ayn Rand</p>
                     <span className="text-muted">October 13th, 2019</span>
                   </div>
                 </div>
@@ -81,7 +81,7 @@ function BorderLessCards() {
                     />
                   </div>
                   <div className="p-2">
-                    <p className="text-dark font-weight-bold m-0">Ayn Rand</p>
+                    <p className="text-dark fw-bold m-0">Ayn Rand</p>
                     <span className="text-muted">October 13th, 2019</span>
                   </div>
                 </div>
@@ -119,7 +119,7 @@ function BorderLessCards() {
                     />
                   </div>
                   <div className="p-2">
-                    <p className="text-dark font-weight-bold m-0">Ayn Rand</p>
+                    <p className="text-dark fw-bold m-0">Ayn Rand</p>
                     <span className="text-muted">October 13th, 2019</span>
                   </div>
                 </div>

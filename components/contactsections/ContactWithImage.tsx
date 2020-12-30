@@ -4,7 +4,7 @@ function ContactWithImage() {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-5 align-self-center">
-            <h1 className="font-weight-bold">Contact our team</h1>
+            <h1 className="fw-bolder">Contact our team</h1>
             <p className="lead text-dark">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

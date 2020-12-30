@@ -4,7 +4,7 @@ function ContactSplitDetailForm() {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-5 align-self-center bg-light py-5 px-5">
-            <h1 className="font-weight-bold text-dark">Get in touch</h1>
+            <h1 className="fw-bolder text-dark">Get in touch</h1>
             <p className="lead text-muted mt-3">
               <small>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna
