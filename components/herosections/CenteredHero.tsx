@@ -1,7 +1,7 @@
-function SimpleNav() {
+function CenteredHero() {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <>
+      <nav className="navbar navbar-expand-lg navbar-light bg-white py-3">
         <div className="container-fluid">
           <a className="navbar-brand pe-3" href="#">
             <img className="img-fluid" src="/logo.svg" width="28" />
@@ -54,8 +54,35 @@ function SimpleNav() {
           </div>
         </div>
       </nav>
-    </div>
+      <div style={{ height: "80vh" }}>
+        <div className="container h-100">
+          <div className="row h-100 mt-n4 justify-content-center">
+            <div className="col-md-12 text-center align-self-center">
+              <h5 className="mb-3">
+                <small className="text-muted text-uppercase">
+                  Design Inspiration
+                </small>
+              </h5>
+
+              <h1 className="display-4 fw-bold mb-3">
+                Data to enrich your
+                <span className="text-primary"> online business</span>
+              </h1>
+              <p className="mb-4 lead text-muted">
+                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
+                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
+                fugiat aliqua.
+              </p>
+              <div className="btn btn-primary btn-lg">Get Started</div>
+              <div className="btn btn-outline-primary btn-lg ms-3">
+                Live Demo
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 
-export default SimpleNav;
+export default CenteredHero;
