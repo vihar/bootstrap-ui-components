@@ -1,5 +1,5 @@
 {
-  "name": "strapfive",
+  "name": "bootstrap-ui-components",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mdx-js/loader": "^1.6.22",
+    "@next/mdx": "^10.0.4",
     "bootstrap": "^5.0.0-beta1",
     "jquery": "^3.5.1",
     "next": "10.0.4",

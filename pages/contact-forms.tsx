@@ -2,12 +2,10 @@
 import { ComponentLayout } from "layouts";
 
 // components
-import {
-  ContactWithImage,
-  ReachOutForm,
-  SimpleContact,
-  ContactSplitDetailForm,
-} from "components/contactsections";
+import ContactWithImage from "components/contact-sections/contact-image";
+import ReachOutForm from "components/contact-sections/reach-out-form";
+import SimpleContact from "components/contact-sections/simple-contact";
+import ContactSplitDetailForm from "components/contact-sections/contact-split";
 
 function ContactFormComponents() {
   return (
