@@ -1,11 +1,10 @@
 // layout
 import { ComponentLayout } from "layouts";
+
 // components
-import {
-  SimpleCards,
-  BorderLessCards,
-  BlogFeatureSection,
-} from "components/blogsections";
+import SimpleCards from "components/blog-sections/simple-cards";
+import BorderLessCards from "components/blog-sections/border-less-cards";
+import BlogFeatureSection from "components/blog-sections/blog-feature";
 
 function CardsComponents() {
   return (

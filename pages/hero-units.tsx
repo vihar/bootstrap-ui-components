@@ -1,11 +1,10 @@
 import { ComponentLayout } from "layouts";
 
-import {
-  SimpleHero,
-  SimpleHeroDark,
-  CenteredHero,
-  HeroSignUp,
-} from "components/herosections";
+// components
+import SimpleHero from "components/hero-sections/simple-hero";
+import SimpleHeroDark from "components/hero-sections/simple-hero-dark";
+import CenteredHero from "components/hero-sections/centered-hero";
+import HeroSignUp from "components/hero-sections/hero-with-signup";
 
 function HeroComponents() {
   return (
