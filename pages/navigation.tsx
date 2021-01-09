@@ -1,5 +1,5 @@
 // layouts
-import { ComponentLayout } from "layouts";
+import { SiteLayout } from "layouts";
 
 // components
 import SimpleNav from "components/nav-sections/simple-nav";
@@ -9,7 +9,7 @@ import SimpleNavDropdown from "components/nav-sections/nav-simple-dropdown";
 
 function NavbarComponents() {
   return (
-    <ComponentLayout>
+    <SiteLayout>
       <div className="container mt-5">
         <p className="display-6 mb-5">Navigation Components</p>
         <div className="mb-5">
@@ -28,7 +28,7 @@ function NavbarComponents() {
           <SimpleNavDropdown />
         </div>
       </div>
-    </ComponentLayout>
+    </SiteLayout>
   );
 }
 
