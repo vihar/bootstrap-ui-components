@@ -1,17 +1,17 @@
+// layouts
 import { ComponentLayout } from "layouts";
 
-import {
-  SimpleNav,
-  CenteredNav,
-  OverallCenterNav,
-  SimpleNavDropdown,
-} from "components/navsections";
+// components
+import SimpleNav from "components/nav-sections/simple-nav";
+import CenteredNav from "components/nav-sections/centered-nav";
+import OverallCenterNav from "components/nav-sections/overall-centered-nav";
+import SimpleNavDropdown from "components/nav-sections/nav-simple-dropdown";
 
 function NavbarComponents() {
   return (
     <ComponentLayout>
       <div className="container mt-5">
-        <p className="display-6 mb-5">Navigation Componets</p>
+        <p className="display-6 mb-5">Navigation Components</p>
         <div className="mb-5">
           <SimpleNav />
         </div>
