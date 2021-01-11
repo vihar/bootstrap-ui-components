@@ -1,3 +1,5 @@
+import React from "react";
+
 function SimpleHero() {
   return (
     <>
@@ -63,7 +65,6 @@ function SimpleHero() {
                   Design Inspiration
                 </small>
               </h5>
-
               <h1 className="display-4 fw-bold mb-3">
                 Data to enrich your
                 <span className="text-primary"> online business</span>

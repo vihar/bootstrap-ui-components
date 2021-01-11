@@ -1,20 +1,25 @@
-import { ComponentLayout } from "layouts";
-
+import { SiteLayout, ComponentLayout } from "layouts";
 // components
-import SimpleHero from "components/hero-sections/simple-hero";
+import { SimpleHeroView, SimpleHeroCode } from "components/hero-sections";
 import SimpleHeroDark from "components/hero-sections/simple-hero-dark";
 import CenteredHero from "components/hero-sections/centered-hero";
 import HeroSignUp from "components/hero-sections/hero-with-signup";
 
 function HeroComponents() {
   return (
-    <ComponentLayout>
+    <SiteLayout>
       <div className="container mt-5">
         <p className="display-6 mb-5">Hero Components</p>
         <div className="mb-5">
-          <div className="border">
+          <ComponentLayout
+            title="Simple Hero"
+            view={<SimpleHeroView />}
+            doc={<SimpleHeroCode />}
+          />
+
+          {/* <div className="border">
             <SimpleHero />
-          </div>
+          </div> */}
         </div>
 
         <div className="mb-5">
@@ -35,7 +40,7 @@ function HeroComponents() {
           </div>
         </div>
       </div>
-    </ComponentLayout>
+    </SiteLayout>
   );
 }
 
