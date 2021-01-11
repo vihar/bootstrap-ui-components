@@ -8,7 +8,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^10.0.4",
     "bootstrap": "^5.0.0-beta1",
     "highlight.js": "^10.5.0",

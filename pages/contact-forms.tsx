@@ -1,5 +1,5 @@
 // layouts
-import { ComponentLayout } from "layouts";
+import { SiteLayout } from "layouts";
 
 // components
 import ContactWithImage from "components/contact-sections/contact-image";
@@ -9,7 +9,7 @@ import ContactSplitDetailForm from "components/contact-sections/contact-split";
 
 function ContactFormComponents() {
   return (
-    <ComponentLayout>
+    <SiteLayout>
       <div className="container mt-5">
         <p className="display-6 mb-5">Contact Components</p>
 
@@ -37,7 +37,7 @@ function ContactFormComponents() {
           </div>
         </div>
       </div>
-    </ComponentLayout>
+    </SiteLayout>
   );
 }
 

@@ -1,5 +1,5 @@
 // layout
-import { ComponentLayout } from "layouts";
+import { SiteLayout } from "layouts";
 
 // components
 import SimpleCards from "components/blog-sections/simple-cards";
@@ -8,7 +8,7 @@ import BlogFeatureSection from "components/blog-sections/blog-feature";
 
 function CardsComponents() {
   return (
-    <ComponentLayout>
+    <SiteLayout>
       <div className="container mt-5">
         <div className="mb-5">
           <div className="border">
@@ -28,7 +28,7 @@ function CardsComponents() {
           </div>
         </div>
       </div>
-    </ComponentLayout>
+    </SiteLayout>
   );
 }
 

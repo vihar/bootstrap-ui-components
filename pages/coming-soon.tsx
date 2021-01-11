@@ -1,9 +1,9 @@
-import { ComponentLayout } from "layouts";
+import { SiteLayout } from "layouts";
 import Link from "next/link";
 
 function ComingSoonPage() {
   return (
-    <ComponentLayout>
+    <SiteLayout>
       <div style={{ height: "80vh" }}>
         <div className="container h-100 text-center mt-5">
           <div className="row h-100">
@@ -39,7 +39,7 @@ function ComingSoonPage() {
           </div>
         </div>
       </div>
-    </ComponentLayout>
+    </SiteLayout>
   );
 }
 
