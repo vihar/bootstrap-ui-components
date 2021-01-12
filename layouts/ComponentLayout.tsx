@@ -4,10 +4,12 @@ interface IComponentLayout {
   title: string;
   view: JSX.Element;
   doc: JSX.Element;
+  code: string;
+  preview: string;
 }
 
 const ComponentLayout: FC<IComponentLayout> = (props) => {
-  const { title, view, doc } = props;
+  const { title, view, doc, code, preview } = props;
   return (
     <div>
       {title}
@@ -15,11 +17,11 @@ const ComponentLayout: FC<IComponentLayout> = (props) => {
         <li className="nav-item" role="presentation">
           <a
             className="nav-link active"
-            id="home-tab"
+            id="code-tab"
             data-bs-toggle="tab"
-            href="#home"
+            href={"#" + code}
             role="tab"
-            aria-controls="home"
+            aria-controls="code"
             aria-selected="true"
           >
             View
@@ -28,11 +30,11 @@ const ComponentLayout: FC<IComponentLayout> = (props) => {
         <li className="nav-item" role="presentation">
           <a
             className="nav-link"
-            id="profile-tab"
+            id="preview-tab"
             data-bs-toggle="tab"
-            href="#profile"
+            href={"#" + preview}
             role="tab"
-            aria-controls="profile"
+            aria-controls="preview"
             aria-selected="false"
           >
             Code
@@ -42,17 +44,17 @@ const ComponentLayout: FC<IComponentLayout> = (props) => {
       <div className="tab-content" id="myTabContent">
         <div
           className="tab-pane fade show active"
-          id="home"
+          id={code}
           role="tabpanel"
-          aria-labelledby="home-tab"
+          aria-labelledby="code-tab"
         >
           {view}
         </div>
         <div
           className="tab-pane fade"
-          id="profile"
+          id={preview}
           role="tabpanel"
-          aria-labelledby="profile-tab"
+          aria-labelledby="preview-tab"
         >
           {doc}
         </div>

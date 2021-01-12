@@ -1,1 +1,2 @@
-export * from "./simple-hero-sample";
+export * from "./simple-hero";
+export * from "./centered-hero";

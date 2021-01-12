@@ -1,6 +1,7 @@
 import React from "react";
 import dynamic from "next/dynamic";
 import SyntaxHighlighter from "react-syntax-highlighter";
+
 const darcula = dynamic(
   () => import("react-syntax-highlighter/dist/esm/styles/prism/dark"),
   { ssr: false }
