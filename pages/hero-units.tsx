@@ -21,10 +21,6 @@ function HeroComponents() {
             code="simple-hero-code"
             preview="simple-hero-preview"
           />
-
-          {/* <div className="border">
-            <SimpleHero />
-          </div> */}
         </div>
 
         <div className="mb-5">
