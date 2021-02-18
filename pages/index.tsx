@@ -1,11 +1,14 @@
 // next
 import Link from "next/link";
+// next-seo
+import { NextSeo } from "next-seo";
 // layouts
 import { DefaultLayout } from "layouts";
 
 function Home() {
   return (
     <>
+      <NextSeo title="Bootstrap 5 UI Components | Home " />
       <DefaultLayout>
         <div style={{ height: "80vh" }}>
           <div className="container h-100 text-center">

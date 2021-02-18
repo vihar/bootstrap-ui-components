@@ -3,6 +3,11 @@ import React from "react";
 import App from "next/app";
 import Head from "next/head";
 
+// next seo
+import { DefaultSeo } from "next-seo";
+
+import SEO from "../next-seo.config";
+
 // app css
 import "../styles/globals.scss";
 
@@ -13,17 +18,14 @@ class MyApp extends App {
     return (
       <>
         <Head>
-          <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.3.2/build/styles/default.min.css"
-          ></link>
-
+          <meta content="width=device-width, initial-scale=1" name="viewport" />
           <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
             crossOrigin="anonymous"
           />
         </Head>
+        <DefaultSeo {...SEO} />
         <Component {...pageProps} />
       </>
     );
