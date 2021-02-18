@@ -1,11 +1,17 @@
 // layouts
-import { SiteLayout } from "layouts";
+import { SiteLayout, ComponentLayout } from "layouts";
 
 // components
-import ContactWithImage from "components/contact-sections/contact-image";
-import ReachOutForm from "components/contact-sections/reach-out-form";
-import SimpleContact from "components/contact-sections/simple-contact";
-import ContactSplitDetailForm from "components/contact-sections/contact-split";
+import {
+  SimpleContactCode,
+  SimpleContactView,
+  ContactWithImageCode,
+  ContactWithImageView,
+  ContactSplitDetailFormCode,
+  ContactSplitDetailFormView,
+  ReachOutFormCode,
+  ReachOutFormView,
+} from "components/contact-sections";
 
 function ContactFormComponents() {
   return (
@@ -15,25 +21,49 @@ function ContactFormComponents() {
 
         <div className="mb-5">
           <div className="border">
-            <SimpleContact />
+            <ComponentLayout
+              title="Simple Contact Form"
+              view={<SimpleContactView />}
+              doc={<SimpleContactCode />}
+              code="simple-contact-code"
+              preview="simple-contact-preview"
+            />
           </div>
         </div>
 
         <div className="mb-5">
           <div className="border">
-            <ReachOutForm />
+            <ComponentLayout
+              title="Contact Form with Image"
+              view={<ContactWithImageView />}
+              doc={<ContactWithImageCode />}
+              code="contact-image-code"
+              preview="contact-image-preview"
+            />
           </div>
         </div>
 
         <div className="mb-5">
           <div className="border">
-            <ContactWithImage />
+            <ComponentLayout
+              title="Contact Split Form"
+              view={<ContactSplitDetailFormView />}
+              doc={<ContactSplitDetailFormCode />}
+              code="contact-split-code"
+              preview="contact-split-preview"
+            />
           </div>
         </div>
 
         <div className="mb-5">
           <div className="border">
-            <ContactSplitDetailForm />
+            <ComponentLayout
+              title="Reach Out Form"
+              view={<ReachOutFormView />}
+              doc={<ReachOutFormCode />}
+              code="react-contact-code"
+              preview="reach-contact-preview"
+            />
           </div>
         </div>
       </div>

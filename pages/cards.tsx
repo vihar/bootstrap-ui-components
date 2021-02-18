@@ -1,10 +1,14 @@
 // layout
-import { SiteLayout } from "layouts";
+import { SiteLayout, ComponentLayout } from "layouts";
 
-// components
-import SimpleCards from "components/blog-sections/simple-cards";
-import BorderLessCards from "components/blog-sections/border-less-cards";
-import BlogFeatureSection from "components/blog-sections/blog-feature";
+import {
+  BlogFeatureSectionCode,
+  BlogFeatureSectionView,
+  BorderLessCardsCode,
+  BorderLessCardsView,
+  SimpleCardsCode,
+  SimpleCardsView,
+} from "components/blog-sections";
 
 function CardsComponents() {
   return (
@@ -12,19 +16,36 @@ function CardsComponents() {
       <div className="container mt-5">
         <div className="mb-5">
           <div className="border">
-            <SimpleCards />
+            <ComponentLayout
+              title="Simple Cards"
+              view={<SimpleCardsView />}
+              doc={<SimpleCardsCode />}
+              code="simple-cards-code"
+              preview="simple-cards-preview"
+            />
+          </div>
+        </div>
+        <div className="mb-5">
+          <div className="border">
+            <ComponentLayout
+              title="SimpleHeroDark"
+              view={<BlogFeatureSectionView />}
+              doc={<BlogFeatureSectionCode />}
+              code="blog-feature-code"
+              preview="blog-feature-preview"
+            />
           </div>
         </div>
 
         <div className="mb-5">
           <div className="border">
-            <BorderLessCards />
-          </div>
-        </div>
-
-        <div className="mb-5">
-          <div className="border">
-            <BlogFeatureSection />
+            <ComponentLayout
+              title="Border Less Cards"
+              view={<BorderLessCardsCode />}
+              doc={<BorderLessCardsView />}
+              code="border-less-cards-code"
+              preview="border-less-cards-preview"
+            />
           </div>
         </div>
       </div>

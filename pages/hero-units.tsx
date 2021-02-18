@@ -5,8 +5,11 @@ import {
   SimpleHeroCode,
   CenteredHeroView,
   CenteredHeroCode,
+  SimpleHeroDarkCode,
+  SimpleHeroDarkView,
+  HeroSignUpCode,
+  HeroSignUpView,
 } from "components/hero-sections";
-import HeroSignUp from "components/hero-sections/hero-with-signup";
 
 function HeroComponents() {
   return (
@@ -37,7 +40,25 @@ function HeroComponents() {
 
         <div className="mb-5">
           <div className="border">
-            <HeroSignUp />
+            <ComponentLayout
+              title="SimpleHeroDark"
+              view={<SimpleHeroDarkView />}
+              doc={<SimpleHeroDarkCode />}
+              code="hero-dark-code"
+              preview="hero-dark-preview"
+            />
+          </div>
+        </div>
+
+        <div className="mb-5">
+          <div className="border">
+            <ComponentLayout
+              title="Simple Sign Up"
+              view={<HeroSignUpView />}
+              doc={<HeroSignUpCode />}
+              code="hero-sign-up-code"
+              preview="hero-sign-up-preview"
+            />
           </div>
         </div>
       </div>
