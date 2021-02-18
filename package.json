@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "bootstrap": "^5.0.0-beta1",
+    "bootstrap": "^5.0.0-beta2",
     "next": "10.0.4",
     "next-seo": "^4.19.0",
     "prismjs": "^1.23.0",
