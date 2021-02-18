@@ -7,9 +7,15 @@ function DefaultLayout(props: any) {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
         <div className="container">
-          <a className="navbar-brand pe-3" href="#">
-            <span className="ms-3 fw-bold">bootstrap5</span>
-            <span className="p-1 border rounded mx-2">UI</span>
+          <a className="navbar-brand pe-3">
+            <Link href="/">
+              <a className="text-dark text-decoration-none">
+                <span className="ms-3 fw-bold">bootstrap5</span>
+                <span className="p-1 border rounded mx-2 fw-bolder shadow-sm">
+                  UI
+                </span>
+              </a>
+            </Link>
           </a>
           <button
             className="navbar-toggler"

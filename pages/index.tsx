@@ -39,7 +39,7 @@ function Home() {
                 <p className="lead text-muted mt-4">
                   Created and Maintained by{" "}
                   <Link href="https://twitter.com/vihar13k">
-                    <a target="_blank">@vihark13</a>
+                    <a target="_blank">@vihar13k</a>
                   </Link>
                 </p>
               </div>

@@ -1,5 +1,7 @@
+import { DefaultLayout } from "layouts";
+
 function ComponentsPage() {
-  return <></>;
+  return <DefaultLayout></DefaultLayout>;
 }
 
 export default ComponentsPage;
