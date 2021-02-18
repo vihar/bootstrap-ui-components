@@ -39,3 +39,15 @@ $font-weight-bolder: 700;
 @import "../node_modules/bootstrap/scss/images";
 @import "../node_modules/bootstrap/scss/containers";
 @import "../node_modules/bootstrap/scss/grid";
+
+.custom-nav-tabs .nav-item .nav-link {
+  color: $dark !important;
+  border: 1px solid $light;
+}
+.custom-nav-tabs .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: $dark !important;
+  background-color: #f3f4f6;
+  border-radius: 3px;
+  border: 1px solid #f3f4f6;
+}

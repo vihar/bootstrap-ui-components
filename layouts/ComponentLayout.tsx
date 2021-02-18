@@ -11,14 +11,18 @@ interface IComponentLayout {
 const ComponentLayout: FC<IComponentLayout> = (props) => {
   const { title, view, doc, code, preview } = props;
   return (
-    <div className="border">
-      <div className="d-flex align-items-center border border-top-0 border-left-0 border-right-0 w-100 flex-row">
-        <div className="flex-grow-1 p-2">
-          <p className="lead mb-0">{title}</p>
+    <div className="border rounded">
+      <div className="d-flex align-items-center border border-top-0 border-start-0 border-end-0 w-100 px-3 py-1">
+        <div>
+          <p className="fw-bolder mb-0 badge bg-secondary">{title}</p>
         </div>
-        <div className="p-2">
-          <ul className="nav nav-pills" id="myTab" role="tablist">
-            <li className="nav-item" role="presentation">
+        <div className="ms-auto">
+          <ul
+            className="nav nav-pills custom-nav-tabs"
+            id="myTab"
+            role="tablist"
+          >
+            <li className="nav-item me-2" role="presentation">
               <a
                 className="nav-link active"
                 id="code-tab"
