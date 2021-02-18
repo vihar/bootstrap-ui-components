@@ -1,5 +1,5 @@
 // layouts
-import { SiteLayout, ComponentLayout } from "layouts";
+import { ComponentLayout, DefaultLayout } from "layouts";
 
 // components
 import {
@@ -15,7 +15,7 @@ import {
 
 function ContactFormComponents() {
   return (
-    <SiteLayout>
+    <DefaultLayout>
       <div className="container mt-5">
         <p className="display-6 mb-5">Contact Components</p>
 
@@ -67,7 +67,7 @@ function ContactFormComponents() {
           </div>
         </div>
       </div>
-    </SiteLayout>
+    </DefaultLayout>
   );
 }
 
