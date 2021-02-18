@@ -1,4 +1,4 @@
-import { SiteLayout, ComponentLayout } from "layouts";
+import { ComponentLayout } from "layouts";
 // components
 import {
   SimpleHeroView,
@@ -13,7 +13,7 @@ import {
 
 function HeroComponents() {
   return (
-    <SiteLayout>
+    <>
       <div className="container mt-5">
         <p className="display-6 mb-5">Hero Components</p>
         <div className="mb-5">
@@ -62,7 +62,7 @@ function HeroComponents() {
           </div>
         </div>
       </div>
-    </SiteLayout>
+    </>
   );
 }
 
