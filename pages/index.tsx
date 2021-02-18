@@ -15,11 +15,11 @@ function Home() {
                   Beautifully crafted bootstrap 5 components for faster, better
                   and easier UI development 🚀!
                 </h1>{" "}
-                <h4 className="fw-lighter text-muted mt-3">
-                  Fully responsive bootstrap 5 components for you and your
-                  organizations. Completely free and open to use, contributions
-                  are welcome.
-                </h4>
+                <h5 className="fw-light text-muted mt-3">
+                  No packages required, <strong>Zero CSS and JavaScript</strong>{" "}
+                  bootstrap 5 components for you and your organizations.
+                  Completely free and open to use, contributions are welcome.
+                </h5>
                 <div className="mt-3">
                   <Link href="/components">
                     <a>
@@ -37,7 +37,7 @@ function Home() {
                   </Link>
                 </div>
                 <p className="lead text-muted mt-4">
-                  Created and Maintained by{" "}
+                  Created and maintained by{" "}
                   <Link href="https://twitter.com/vihar13k">
                     <a target="_blank">@vihar13k</a>
                   </Link>

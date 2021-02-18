@@ -1,5 +1,5 @@
 // layouts
-import { SiteLayout, ComponentLayout } from "layouts";
+import { ComponentLayout, DefaultLayout } from "layouts";
 
 // components
 import {
@@ -13,7 +13,7 @@ import {
 
 function NavbarComponents() {
   return (
-    <SiteLayout>
+    <DefaultLayout>
       <div className="container mt-5">
         <p className="display-6 mb-5">Navigation Components</p>
 
@@ -57,7 +57,7 @@ function NavbarComponents() {
           />
         </div>
       </div>
-    </SiteLayout>
+    </DefaultLayout>
   );
 }
 
