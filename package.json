@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.0.0-beta2",
-    "next": "10.0.7",
+    "next": "10.0.8",
     "next-seo": "^4.19.0",
     "prismjs": "^1.23.0",
     "react": "17.0.1",
