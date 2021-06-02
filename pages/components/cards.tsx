@@ -41,8 +41,8 @@ function CardsComponents() {
           <div className="border">
             <ComponentLayout
               title="Border Less Cards"
-              view={<BorderLessCardsCode />}
-              doc={<BorderLessCardsView />}
+              view={<BorderLessCardsView />}
+              doc={<BorderLessCardsCode />}
               code="border-less-cards-code"
               preview="border-less-cards-preview"
             />
